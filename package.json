@@ -45,13 +45,16 @@
   },
   "dependencies": {
     "@uirouter/angularjs": "^1.0.5",
+    "amfe-flexible": "^2.2.1",
     "angular": "1.5.9",
     "copy-dir": "^0.3.0",
     "handlebars": "^4.0.10",
+    "less": "^2.7.3",
     "rd": "^1.0.0",
     "vue": "^2.5.9",
     "vue-loader": "^13.5.0",
     "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.9",
     "wdng-ui": "^0.0.6"
   }
 }
