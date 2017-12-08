@@ -17,9 +17,7 @@
         
         <div id="wrapper-month">
                 <div id="scroller-month">
-                    <ul>
-                        <vue-list :dispatchData="monthList"></vue-list>
-                    </ul>
+                    <vue-list :dispatchData="monthList"></vue-list>
                 </div>
             </div>
     </div>

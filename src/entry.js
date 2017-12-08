@@ -8,7 +8,13 @@ import Cal from './app/cal/cal.vue'
 Vue.use(VueRouter)
 
 const routes = [
-    { path: '/cal', component: Cal },
+    {
+        path : '',
+        redirect : '/cal'
+    },{
+        path : '/cal',
+        component: Cal
+    }
 ]
 
 const router = new VueRouter({
